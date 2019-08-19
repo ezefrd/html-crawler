@@ -27,7 +27,7 @@ public class HtmlCrawlerTest {
     }
 
     @Parameterized.Parameters
-    public static Collection<Object[]> getAllScores() {
+    public static Collection<Object[]> getAllEntries() {
         return Arrays.asList(new Object[][] {
                 { "./src/test/resources/originalSource.html", "./src/test/resources/similarSource1.html", "make-everything-ok-button", "#root >  html >  body >  div >  div >  div >  div >  div >  div > a" },
                 { "./src/test/resources/originalSource.html", "./src/test/resources/similarSource2.html", "make-everything-ok-button", "#root >  html >  body >  div >  div >  div >  div >  div >  div >  div > a" },
